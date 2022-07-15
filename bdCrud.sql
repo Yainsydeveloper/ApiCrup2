@@ -39,7 +39,7 @@ CREATE TABLE `billetera` (
 
 LOCK TABLES `billetera` WRITE;
 /*!40000 ALTER TABLE `billetera` DISABLE KEYS */;
-INSERT INTO `billetera` VALUES (1,'Bitcoin (BTC)','Satoshi Nakamoto',21,22000,2),(2,'Ethereum (ETH)','Vitalik Buterin',18,1222,1),(3,'Ripple (XRP)','Chris Larsen',100,0.34,600),(4,'Cardano (ADA)','Charles Hoskinson',45,0.48,350),(5,'NEO (NEO)','Da Hongfei',100,9.41,100),(6,'Litecoin (LTC)','Charlie Lee',84,53.3,20);
+INSERT INTO `billetera` VALUES (2,'Ethereum (ETH)','Vitalik Buterin',18,1222,1),(3,'Ripple (XRP)','Chris Larsen',100,0.34,600),(4,'Cardano (ADA)','Charles Hoskinson',45,0.48,350),(5,'NEO (NEO)','Da Hongfei',100,9.41,100),(6,'Litecoin (LTC)','Charlie Lee',84,53.3,20);
 /*!40000 ALTER TABLE `billetera` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-07-14 11:54:41
+-- Dump completed on 2022-07-15 18:30:03
